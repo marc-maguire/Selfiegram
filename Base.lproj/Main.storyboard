@@ -62,12 +62,12 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <color key="barTintColor" red="0.10101967159124636" green="0.39531588627226721" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                <color key="value" red="0.14014275140544749" green="0.31502222787820672" blue="0.77203677398989901" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
                     </tabBar>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="color" keyPath="tintColour">
-                            <color key="value" red="0.12916349809381142" green="0.40544587613381694" blue="0.89705650252525249" alpha="1" colorSpace="calibratedRGB"/>
-                        </userDefinedRuntimeAttribute>
-                    </userDefinedRuntimeAttributes>
                     <connections>
                         <segue destination="xUd-60-OTB" kind="relationship" relationship="viewControllers" id="qq6-py-rEf"/>
                         <segue destination="6e5-99-u5S" kind="relationship" relationship="viewControllers" id="Ieq-p5-Gwb"/>
@@ -76,7 +76,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O6Z-7k-DJQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-444" y="320"/>
+            <point key="canvasLocation" x="-464" y="268"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="dKR-Tl-NGb">
